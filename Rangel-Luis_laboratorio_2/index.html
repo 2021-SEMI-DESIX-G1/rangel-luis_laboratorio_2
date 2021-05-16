@@ -1,0 +1,67 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <meta charset="UTF-8">
+        <meta http-equiv="X-UA-Compatible" content="IE=edge">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <link rel="stylesheet" href="design.css">
+        <title>Laboratorio 2</title>
+        
+    </head>
+    <body>
+        <header>
+            <center><h1>Laboratorio #2 - Problemas básicos con Javascript</h1></center>
+
+            <center><h2>Problemas a Resolver</h2></center>
+        </header>
+        <div>
+            <ol type="1">
+                <li>¿Qué es Javascript y en qué se asemeja a Java?</li>
+                <p>JavaScript es un lenguaje interpretado, en otras palabras, se lee y traduce línea a línea al mismo tiempo que se ejecuta el programa. JavaScript se ejecuta esencialmente a través de tu navegador web.
+
+                    Por otro lado, Java es un lenguaje compilado: pasa por una JVM (Java Virtual Machine) para ser interpretado y traducido al lenguaje de la máquina.
+                </p>
+
+                <center><h3>Desarrollo de problemas</h3></center>
+                <div>
+                    <li>Declarar dos variables con la palabra reservada "var", imprimir el resultado de las operaciones de "Suma", "Resta", "Multiplicación" y "División" en la consola. Las variables pueden ser estáticas.</li>
+                </div>
+                <center><h4>Ver Consola</h4></center>
+
+                <script>
+                    console.log("Problema 2")
+                    var num1 = 20, num2 = 50
+                    console.log("variable 1: " + num1)
+                    console.log("variable 2: " + num2)
+                    console.log("")
+                    console.log("Suma: " + (num1 + num2) )
+                    console.log("Resta: " + (num1 - num2) )
+                    console.log("Multiplicacion: " + (num1 * num2) )
+                    console.log("Division: " + (num1 / num2))
+                    console.log("")
+
+                    console.log("Problema 3")
+                    let a = "Hello ", b = "World"
+                    console.log(a+b)
+                    console.log("")
+
+                    console.log("Problema 4")
+                    const constant1 = 90, constant2 = "HELLO"
+                    console.log("Dato 1: " + typeof(constant1))
+                    console.log("Dato 2: " + typeof(constant2))
+                    console.log("")
+
+                    console.log("Problema 5")
+                    var Object = {
+                        entero: 100,
+                        cadena: "Hello",
+                        booleano: false,
+                        objeto: new Object()
+                    };
+
+                    console.log(Object)
+                </script>
+            </ol>
+        </div>
+    </body>
+</html>
